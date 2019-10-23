@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* Author: Zachary Deere */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgb(255,245,238);
+	flex-direction: column;
+	font-family: "Verdana", Geneva, sans-serif;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin: 5px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+h3 {
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: left;
+	margin-bottom: 1px;
+}
+
+h4 {
+    margin: 1px;
+}
+
+/* Only used for testing purposes */
+/* div { */
+	/* border-style: solid; */
+	/* border-width: 5px; */
+	/* border-color: black;	 */
+/* } */
+
+p {
+	text-align: left;
+	font-size: 16px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 99%;               
+  background-color:black;
+  height: 1px;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+}
+
+#big-container {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
+}
+
+#maximdiv {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	background-color: rgb(255,248,220);
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 225px;
+	height: 50%;
+}
+
+#maxim {
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+#contents {
+	background-color: rgb(255,248,220);
+	display: flex;
+	width: 500px;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+}
+
+#keyterms {
+	background-color: rgb(255,248,220);
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 225px;/*112px*/
+	height: 50%;/*150px*/
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+	align-self: auto;
+}
+
+#spoiler {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(200, 0, 0);
+}
+
+/* .entry { */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
+
+.vl {
+	border-left: 3px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 650px;
+}
+
+/* USED FOR THE MENU BAR */
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: black;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #9370DB;
+	color: white;
+}

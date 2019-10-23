@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<!-- Authors: Lucas Levesque and Zachary Deere -->
+
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>Web Programming Final</title>
+
+<!-- Import Peggy Sue CSS stylesheet -->
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Peggy Sue</h1>
+   <div id = "apps">
+         <fieldset id = "rules">
+            <legend>Rules</legend>
+            <ul>
+               <!-- Rules found at https://www.mastersofgames.com/rules/solitaire-rules.htm -->
+               <li>The player makes successive capturing moves, removing a single piece each turn until it is impossible to make any more capturing moves.</li> 
+               <li>Each turn, the player captures a piece by jumping over that piece 
+               <a href = "https://www.merriam-webster.com/dictionary/orthogonal">orthogonally</a> 
+               (not diagonally) from one adjacent point to the vacant adjacent point on the other side.</li>
+            </ul>
+         </fieldset>
+      
+      <table id="board">
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+      </table>
+      
+      <fieldset id = "scores">
+      <legend>Scores</legend>
+      <p>Your Score:</p><p id = "yourscore-output"></p>
+      <p>High Score:</p><p id = "highscore-output"></p>
+      <div id = "buttons">
+      <button id="reset-highscore" type="button">Reset High Score</button>
+      <button id="reset-board" type="button">Reset Board</button>
+      </div>
+      </fieldset>
+   </div>
+
+<!-- Import the Peggy Sue JavaScript script to add interactivity to the page. -->
+<script src="script.js"></script>
+
+</body></html>

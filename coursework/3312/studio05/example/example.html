@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>JavaScript examples for Studio 5</title>
+
+<!--
+CS 3312, spring 2018
+Examples for Studio 5
+-->
+
+<!-- Import a CSS stylesheet to style the page. -->
+<link href="example.css" rel="stylesheet" />
+
+</head><body>
+
+<h1>Let's get functional</h1>
+
+<fieldset id="die-area">
+   <legend>Roll a die</legend>
+   <label>Enter number of sides on die: <input id="number-of-sides" type="number" /></label>
+   <button id="roll-die" type="button">Roll the die</button>
+   <p>Result:
+      <span class="number-output" id="die-output"></span>
+   </p>
+</fieldset>
+
+<fieldset id="factorial-area">
+   <legend>Calculate a factorial</legend>
+   <label>Enter a number: <input id="factorial-input" type="number" /></label>
+   <button id="calculate-factorial" type="button">Calculate its factorial</button>
+   <textarea id="factorial-output" rows="10"></textarea>
+</fieldset>
+
+<fieldset id="cipher-area">
+   <legend>Encipher a message</legend>
+   <label>Your message: <input id="cipher-message" type="text" /></label>
+   <button id="encipher" type="button">Encipher it with ROT13!</button>
+</fieldset>
+
+<fieldset id="somber-colors-area">
+   <legend>Move over this square for somber colors</legend>
+   <div class="square" id="somber-colors"></div>
+</fieldset>
+
+<fieldset id="crazy-colors-area">
+   <legend>Click this square and drag for crazy colors</legend>
+   <div class="square" id="crazy-colors"></div>
+</fieldset>
+
+<fieldset id="remember-message-area">
+   <legend>I can remember a message for you</legend>
+   <label>Enter a message to save: <input id="message-to-remember" type="text" /></label>
+   <button id="set-message" type="button">Save message</button>
+   <button id="get-message" type="button">Get remembered message</button>
+</fieldset>
+
+<fieldset id="remember-largest-number-area">
+   <legend>I can remember a large number for you</legend>
+   <label>Enter any numbers you like: <input id="number-input" type="number" /></label>
+   <p>The largest number I've seen:
+      <span class="number-output" id="largest-number"></span>
+   </p>
+</fieldset>
+
+<img src="unnamed.jpg" alt="Cat">
+
+<button onclick=
+    "show_image('unknown.jpg');">Add Google Logo</button> 
+
+<!-- Import a JavaScript script to add interactivity to the page. -->
+<script src="example.js"></script>
+
+</body></html>

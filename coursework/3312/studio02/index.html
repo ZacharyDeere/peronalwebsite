@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>Approval voting</title>
+
+<!--
+CS 3312, spring 2018
+Studio 2
+YOUR NAMES: Zachary Deere and Lucas Levesque
+-->
+
+<!-- Import a CSS stylesheet to style the page. -->
+<link href="style.css" rel="stylesheet" />
+
+</head><body>
+
+<!-- Add your HTML code here. -->
+
+<h1>A new way to vote</h1>
+
+<p>Why be limited to voting for only one candidate?</p>
+<!-- plurality radio button box -->
+<fieldset>
+   <legend>A ballot using plurality voting</legend>
+      <ul>
+         <li><div><label><input id="plurality-for-roosevelt" name="plurality-ballot" type="radio" />&nbsp;Theodore Roosevelt</label></div></li>
+         <li><div><label><input checked="checked" id="plurality-for-taft" name="plurality-ballot" type="radio" />&nbsp;William Howard Taft</label></div></li>
+         <li><div><label><input id="plurality-for-wilson" name="plurality-ballot" type="radio" />&nbsp;Woodrow Wilson</label></div></li>
+      </ul>
+</fieldset>
+
+<p>Approval voting lets you approve <em>any</em> candidates you like.</p>
+<!-- approval checked button box -->
+<fieldset>
+   <legend>A ballot using approval voting</legend>
+      <ul>
+         <li><div><label><input checked="checked" id="approval-for-roosevelt" type="checkbox" />&nbsp;Theodore Roosevelt</label></div></li>
+         <li><div><label><input checked="checked" id="approval-for-taft" type="checkbox" />&nbsp;William Howard Taft</label></div></li>
+         <li><div><label><input id="approval-for-wilson" type="checkbox" />&nbsp;Woodrow Wilson</label></div></li>
+      </ul>
+</fieldset>
+
+<p>Some advantages:</p>
+<!-- informational links -->
+<ol>
+   <li>No <a href="https://en.wikipedia.org/wiki/Vote_splitting"> vote-splitting</a>.</li>
+   <li>No <a href="https://en.wikipedia.org/wiki/Spoiler_effect"> spoiler effect</a>.</li>
+   <li>No <a href="https://en.wikipedia.org/wiki/Strategic_nomination"> strategic nomination</a>.</li>
+</ol>
+
+<p>And now a what-if:</p>
+<!-- statistical table for all presidental -->
+<table>
+   <caption>1912 presidental election</caption>
+   <tr> <!-- tr = table row -->
+      <th>candidate</th> <!-- th = table header cell -->
+      <th>actual popular vote</th>
+      <th>hypothetical approval vote</th>
+   </tr>
+   <tr>
+      <td>Theodore Roosevelt</td>
+      <td>27.4%</td>
+      <td>51%</td>
+   </tr>
+   <tr>
+      <td>William Howard Taft</td>
+      <td>23.2%</td>
+      <td>49%</td>
+   </tr>
+      <tr>
+      <td>Woodrow Wilson</td>
+      <td>41.8%</td>
+      <td>43%</td>
+   </tr>
+</table>
+
+ <!-- email entry box with button -->
+<p>Enter your e-mail address to receive updates on this issue:
+<input type="email" />
+<button type="button">Add me!</button>
+</p>
+
+
+</body></html>

@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* Author: Zachary Deere */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgb(255,245,238);
+	flex-direction: column;
+	font-family: "Verdana", Geneva, sans-serif;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+h2 {
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+p {
+	text-align: left;
+	font-size: 16px;
+	margin: 5px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 99%;               
+  background-color:black;
+  height: 1px;
+}
+
+/* Only used for testing purposes */
+/* div { */
+	/* border-style: solid; */
+	/* border-width: 5px; */
+	/* border-color: black;	 */
+/* } */
+
+#header {
+	display: flex;
+	flex-direction: row;
+}
+
+#ZacharyDeere {
+	background-color: rgb(255,248,220);
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 225px;/*112px*/
+	height: 300px;/*150px*/
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+	align-self: auto;
+}
+
+#monkeydluffy {
+	width: 400px;
+	height: auto;
+}
+
+#vine {
+	text-align: right;
+	width: 225px;
+	white-space: pre;
+	
+}
+
+#contents {
+	background-color: rgb(255,248,220); /*NEW COLOR*/
+	display: flex;
+	width: 500px;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+}
+
+#big-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
+}
+
+#contents img {
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contents iframe {
+	border: 0;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* USED FOR THE MENU BAR */
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: black;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #9370DB;
+	color: white;
+}

@@ -76,6 +76,11 @@ hr {
 	margin: 10px;
 }
 
+#fibExample {
+	display: flex;
+	justify-content: center;
+}
+
 /* USED FOR THE MENU BAR */
 /* Add a black background color to the top navigation */
 .topnav {
